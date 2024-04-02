@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Мастер классы
+{% endblock %}
+
+{% block content %}
+
+
+    <h1 class="title tac">Мастер классы</h1>
+    <p class="descr">В этом разделе представлены мастер-классы по сервисам искусственного инетллекта </p>
+
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed bold-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Мастер-класс по использованию сервиса Murf AI (озвучивание текста)
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse bg-color" data-bs-parent="#accordionFlushExample">
+        <div class="padding"></div>
+      <center> <iframe width="520" height="360" src="https://rutube.ru/play/embed/e5cef9fd8f815bf8fc67f02eb58bf7e6?p=ltyibZlBFWCXi_0zDhWyzg" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></center>
+      <div class="accordion-body align-center mb"><b>Автор мастер класса:</b> Склярова Елена Александровна <br>
+                                                    учитель информатики МБОУ "СОШ №41 им.В.В. Сизова" г.Курск</div>
+
+    </div>
+      
+  </div>
+
+</div>
+
+
+{% endblock %}

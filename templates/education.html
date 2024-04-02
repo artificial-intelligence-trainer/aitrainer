@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Обучение
+{% endblock %}
+
+{% block content %}
+
+    <h1 class="title tac">Обучение</h1>
+    <p class="descr">В этом разделе сайта представлены модули для изучения </p>
+
+<!--accardion-->
+
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed bold-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Начальная школа (1 - 4 классы)
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample">
+        <div class="img_text">
+            <img src="{{ url_for('static', filename='img/1.png') }}" alt="" class="mini_img">
+            <div class="accordion-body bold-button"><a href="{{ url_for('course') }}" class="link">1. Знакомство с платформой PictoBlox</a></div>
+        </div>
+
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed bold-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Средняя школа (5 - 8 классы)
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="img_text">
+            <img src="#" alt="" class="mini_img">
+            <div class="accordion-body bold-button"><a href="#" class="link"> В разработке</a></div>
+        </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button  class="accordion-button collapsed bold-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Старшая школа (9 - 11 класса)
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="img_text">
+            <img src="#" alt="" class="mini_img">
+            <div class="accordion-body bold-button"><a href="#" class="link"> В разработке</a></div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!--end accardion-->
+{% endblock %}

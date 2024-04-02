@@ -1,0 +1,64 @@
+.title{
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.main_img{
+    border-radius: 35px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.bold-button{
+    font-weight: bold;
+}
+.align-center{
+    text-align: center;
+}
+.padding{
+padding-top: 30px;
+}
+.bg-color{
+    background-color: #AFDAFC;
+}
+.mb{
+    margin-bottom: 30px;
+}
+.mini_img{
+    padding-left: 25px;
+    width: 110px;
+
+}
+.img_text{
+    display: flex;
+    align-items: center;
+}
+.descr{
+    font-size: 18px;
+    text-align: center;
+}
+.tac{
+    text-align: center;
+}
+.info{
+    font-size: 20px;
+    font-weight: bold;
+}
+.material{
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-radius: 25px;
+    padding: 25px;
+    text-align: center;
+    -webkit-box-shadow: 11px 12px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 11px 12px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 11px 12px 8px 0px rgba(34, 60, 80, 0.2);
+    margin-bottom: 30px;
+}
+.dow{
+    display: block;
+    text-align: center;
+}
